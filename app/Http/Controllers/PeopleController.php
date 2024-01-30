@@ -59,7 +59,8 @@ class PeopleController extends Controller
             'last_name'     => 'required',
             'phone_number'  => 'required',
             'street'        => 'required',
-            'city_country'  => 'required',
+            'city'          => 'required',
+            'country'       => 'required',
             // Dodaj walidację dla innych właściwości, jeśli są
         ]);
 
